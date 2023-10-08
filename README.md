@@ -16,9 +16,8 @@ Welcome to my Python learning journey! This repository documents my progress and
 - 📈 Progress tracking as I advance through the bootcamp.
 
 ## Repository Contents
-- **Daily Work:** Check the [Daily Work](DailyWork) folder for my daily exercises and code snippets.
-- **Projects:** Explore the [Projects](Projects) directory to see the applications I've built.
-- **Notes:** Find my notes and summaries in the [Notes](Notes) section.
+- I will be Pushing my daily projects and notes into this repo. 
+- This repository is part of my daily coding challenge, where I aim to create and upload a new project every day. The projects will cover a wide range of topics, technologies, and programming languages. Through this challenge, I hope to improve my coding skills, learn new things, and share my progress with the community.
 
 ## Why Python?
 Python is a versatile, beginner-friendly language with a wide range of applications, from web development to data analysis and machine learning. This bootcamp is an opportunity to harness the power of Python for creative problem-solving.
