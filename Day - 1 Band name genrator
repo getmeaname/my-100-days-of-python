@@ -1,0 +1,4 @@
+print("Welcome!")
+c = input("Where did you grow up?\n")
+p = input("What is your pet name?\n")
+print(c + p)
