@@ -1,4 +1,4 @@
-from replit import clear #This line only runs on replit
+from replit import clear #Download replit package to run this line
 import random
 from hangman_art import logo, stages
 
