@@ -7,5 +7,6 @@
     <orderEntry type="jdk" jdkName="Python 3.12 (my-100-days-of-python)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="oop-coffee-machine-start" />
+    <orderEntry type="module" module-name="quiz-game-start" />
   </component>
 </module>
