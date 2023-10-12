@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/my-100-days-of-python.iml" filepath="$PROJECT_DIR$/.idea/my-100-days-of-python.iml" />
       <module fileurl="file://$PROJECT_DIR$/Day - 16 OOP/.idea/oop-coffee-machine-start.iml" filepath="$PROJECT_DIR$/Day - 16 OOP/.idea/oop-coffee-machine-start.iml" />
-      <module fileurl="file://$USER_HOME$/Downloads/100 Python bootcamp/Day 17 Quizgame/.idea/quiz-game-start.iml" filepath="$USER_HOME$/Downloads/100 Python bootcamp/Day 17 Quizgame/.idea/quiz-game-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day 17 Quizgame/.idea/quiz-game-start.iml" filepath="$PROJECT_DIR$/Day 17 Quizgame/.idea/quiz-game-start.iml" />
     </modules>
   </component>
 </project>
