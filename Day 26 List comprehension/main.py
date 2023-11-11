@@ -52,10 +52,20 @@ for (index, row) in student_df.iterrows():
 
 # NATO Phonetic alphabet exercise
 data = pandas.read_csv("nato_phonetic_alphabet.csv")
-nato_df = pandas.DataFrame(data)
-nato_dict = {row.letter: row.code for (index, row) in nato_df.iterrows()}
-print(nato_dict)
 
-user_name = input("Enter a name: ").upper()
-result = [nato_dict[letter] for letter in user_name]
-print(result)
+phonetic_dict = {row.letter: row.code for (index, row) in data.iterrows()}
+print(phonetic_dict)
+
+
+def generate():
+    word = input("Enter a word: ").upper()
+    try:
+        output_list = [phonetic_dict[letter] for letter in word]
+    except KeyError:
+        print("Sorry there can only be alphabet.")
+        generate()
+    else:
+        print(output_list)
+
+
+generate()
