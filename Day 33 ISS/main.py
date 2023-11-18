@@ -12,7 +12,7 @@ MY_LONG = "YOUR LONGITUDE"  # Add your longitude
 
 
 def is_iss_above():
-    response = requests.get("https://api.open-notify.org/iss-now.json")
+    response = requests.get("http://api.open-notify.org/iss-now.json")
     response.raise_for_status()
     data = response.json()
 
