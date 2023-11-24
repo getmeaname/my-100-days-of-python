@@ -16,7 +16,7 @@ parameters = {
     "lat": "Your latitude",
     "lon": "Your longitude",
     "appid": api_key,
-    "exclude": "currently,minutely,daily"
+    "exclude": "currently,minutely,daily",
 }
 
 # One call api requires you to pay for their service use any other free hourly forecast api service that is free
