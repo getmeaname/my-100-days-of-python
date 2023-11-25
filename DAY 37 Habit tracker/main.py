@@ -1,7 +1,11 @@
 import requests
 from datetime import datetime
+
+# Create a user account.
+
 USER_NAME = "xarunx"
 USER_TOKEN = "ahufehfidjaihf"
+
 PIXELA_ENDPOINT = "https://pixe.la/v1/users"
 
 user_params = {
@@ -14,8 +18,11 @@ user_params = {
 # response = requests.post(url=PIXELA_ENDPOINT, json=user_params)
 # print(response.text)
 
+# Create your custom graph.
+
 GRAPH_ENDPOINT = f"{PIXELA_ENDPOINT}/{USER_NAME}/graphs"
 GRAPH_ID = "graph1"
+
 graph_params = {
     "id": GRAPH_ID,
     "name": "Programming Graph",
@@ -31,8 +38,8 @@ headers = {
 # graph_response = requests.post(url=GRAPH_ENDPOINT, json=graph_params, headers=headers)
 # print(graph_response.text)
 
+# Post your progress.
 POST_ENDPOINT = f"{PIXELA_ENDPOINT}/{USER_NAME}/graphs/{GRAPH_ID}"
-
 today = datetime.now()
 
 post_params = {
@@ -43,6 +50,8 @@ post_params = {
 post_response = requests.post(url=POST_ENDPOINT, json=post_params, headers=headers)
 print(post_response.text)
 
+# Update your progress.
+
 update_endpoint = f"{PIXELA_ENDPOINT}/{USER_NAME}/graphs/{GRAPH_ID}/{today.strftime('%Y%m%d')}"
 
 new_pixel_data = {
@@ -51,6 +60,8 @@ new_pixel_data = {
 
 # response = requests.put(url=update_endpoint, json=new_pixel_data, headers=headers)
 # print(response.text)
+
+# Delete your progress.
 
 delete_endpoint = f"{PIXELA_ENDPOINT}/{USER_NAME}/graphs/{GRAPH_ID}/{today.strftime('%Y%m%d')}"
 
