@@ -3,6 +3,7 @@ import random
 app = Flask(__name__)
 
 ans = random.randint(0,9)
+
 @app.route("/")
 def home_page():
     return '<h1>"Guess a number between 0 and 9"</h1>'\
